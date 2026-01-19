@@ -1,5 +1,7 @@
 function getElementsUpTo(array, n) {
-  // your code here
+      arrayfinal= array.slice(0,n);
+
+      return arrayfinal;
   
 }
 

@@ -1,5 +1,6 @@
 function joinArrays(arr1, arr2) {
-  // your code here
+  let arrays= arr1.concat(arr2);
+  return arrays
   
 }
 

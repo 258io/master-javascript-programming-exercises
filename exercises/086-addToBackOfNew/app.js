@@ -1,5 +1,7 @@
 function addToBackOfNew(arr, element) {
-    // your code here
+    let newarray= arr.slice([0],[arr.length]);
+    newarray.push(element);
+    return newarray;    
     
 }
 

@@ -1,5 +1,8 @@
 function getOddElementsAtProperty(obj, key) {
-    // your code here
+        if(Array.isArray(obj[key])){
+          return obj[key].filter(num => num % 2 !== 0);
+        }
+        return [];
     
 }
 

@@ -1,4 +1,11 @@
 function checkAge(name, age) {
-  // your code here
-  
+   if(age<=21){
+    result = "vete a casa" + name;
+   }
+   else result= " bienvenido" + name;
+
+   return result;  
 }
+
+let check= checkAge("Antonio", 18);
+console.log(check);
