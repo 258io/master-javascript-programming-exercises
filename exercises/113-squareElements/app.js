@@ -1,5 +1,8 @@
 function squareElements(arr) {
-  // your code here
+  let square=[];
+  arr.map(num=> num**2) 
+  .forEach (num=> square.push(num));
+   return square;
   
 }
 
