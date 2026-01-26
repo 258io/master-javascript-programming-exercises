@@ -1,5 +1,15 @@
 function computeSumBetween(num1, num2) {
-    // your code here
+      if (num1 > num2) return 0;
+     let sum = 0;
+
+      while ( num1 < num2){
+           sum += num1;
+           num1 ++;
+          
+      }
+      
+
+        return sum;
 
 }
 

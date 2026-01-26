@@ -1,6 +1,7 @@
 function calculateBillTotal(preTaxAndTipAmount) {
-    // your code here
-    
+     let impuestos = 9.5/100;
+     let propina = 15/100;
+     return preTaxAndTipAmount + (preTaxAndTipAmount * impuestos) + (preTaxAndTipAmount * propina);    
 }
 
 let output = calculateBillTotal(20);
